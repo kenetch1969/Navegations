@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		420E047823B252100030CC59 /* SnappingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420E047523B252100030CC59 /* SnappingCollectionViewCell.swift */; };
+		420E047923B252100030CC59 /* SnappingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420E047623B252100030CC59 /* SnappingViewController.swift */; };
+		420E047A23B252100030CC59 /* SnappingFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420E047723B252100030CC59 /* SnappingFlowLayout.swift */; };
+		420E048023B255BE0030CC59 /* ParallaxCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420E047C23B255BE0030CC59 /* ParallaxCollectionViewCell.swift */; };
+		420E048123B255BE0030CC59 /* ParallaxFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420E047D23B255BE0030CC59 /* ParallaxFlowLayout.swift */; };
+		420E048223B255BE0030CC59 /* ParallaxLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420E047E23B255BE0030CC59 /* ParallaxLayoutAttributes.swift */; };
+		420E048323B255BE0030CC59 /* ParallaxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420E047F23B255BE0030CC59 /* ParallaxViewController.swift */; };
+		420E048623B2589E0030CC59 /* SwapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420E048523B2589E0030CC59 /* SwapViewController.swift */; };
+		420E048923B25D6E0030CC59 /* ColumnFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420E048823B25D6E0030CC59 /* ColumnFlowLayout.swift */; };
+		420E048B23B25E7C0030CC59 /* ItemForRowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420E048A23B25E7C0030CC59 /* ItemForRowViewController.swift */; };
+		420E049623B28E240030CC59 /* SectionCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420E049523B28E240030CC59 /* SectionCollectionViewController.swift */; };
+		420E049823B2907B0030CC59 /* UIView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420E049723B2907B0030CC59 /* UIView+extension.swift */; };
+		4214909F23B16DA5005D7251 /* AnimationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4214909E23B16DA5005D7251 /* AnimationsViewController.swift */; };
 		42B1A99C23AFC35F00FE509A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B1A99B23AFC35F00FE509A /* AppDelegate.swift */; };
 		42B1A99E23AFC35F00FE509A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B1A99D23AFC35F00FE509A /* SceneDelegate.swift */; };
 		42B1A9A023AFC35F00FE509A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B1A99F23AFC35F00FE509A /* ViewController.swift */; };
@@ -16,6 +29,13 @@
 		42B1A9AB23AFC36400FE509A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42B1A9A923AFC36400FE509A /* LaunchScreen.storyboard */; };
 		42B1A9B623AFC36400FE509A /* NavegationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B1A9B523AFC36400FE509A /* NavegationsTests.swift */; };
 		42B1A9C123AFC36400FE509A /* NavegationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B1A9C023AFC36400FE509A /* NavegationsUITests.swift */; };
+		42B1A9D323AFC8C900FE509A /* CarouselCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B1A9D023AFC8C900FE509A /* CarouselCollectionViewCell.swift */; };
+		42B1A9D423AFC8C900FE509A /* CarouselViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B1A9D123AFC8C900FE509A /* CarouselViewController.swift */; };
+		42B1A9D523AFC8C900FE509A /* CarouselLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B1A9D223AFC8C900FE509A /* CarouselLayout.swift */; };
+		42B1A9D723AFD3F900FE509A /* CarouselSuperiorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B1A9D623AFD3F900FE509A /* CarouselSuperiorViewController.swift */; };
+		42B1A9DA23AFDA0B00FE509A /* UIViewController+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B1A9D923AFDA0B00FE509A /* UIViewController+extension.swift */; };
+		42B1A9DD23AFDAD300FE509A /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B1A9DC23AFDAD300FE509A /* MenuTableViewController.swift */; };
+		42B1A9DF23AFDB5E00FE509A /* UIColor+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B1A9DE23AFDB5D00FE509A /* UIColor+extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +56,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		420E047523B252100030CC59 /* SnappingCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnappingCollectionViewCell.swift; sourceTree = "<group>"; };
+		420E047623B252100030CC59 /* SnappingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnappingViewController.swift; sourceTree = "<group>"; };
+		420E047723B252100030CC59 /* SnappingFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnappingFlowLayout.swift; sourceTree = "<group>"; };
+		420E047C23B255BE0030CC59 /* ParallaxCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxCollectionViewCell.swift; sourceTree = "<group>"; };
+		420E047D23B255BE0030CC59 /* ParallaxFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxFlowLayout.swift; sourceTree = "<group>"; };
+		420E047E23B255BE0030CC59 /* ParallaxLayoutAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxLayoutAttributes.swift; sourceTree = "<group>"; };
+		420E047F23B255BE0030CC59 /* ParallaxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxViewController.swift; sourceTree = "<group>"; };
+		420E048523B2589E0030CC59 /* SwapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwapViewController.swift; sourceTree = "<group>"; };
+		420E048823B25D6E0030CC59 /* ColumnFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnFlowLayout.swift; sourceTree = "<group>"; };
+		420E048A23B25E7C0030CC59 /* ItemForRowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemForRowViewController.swift; sourceTree = "<group>"; };
+		420E049523B28E240030CC59 /* SectionCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionCollectionViewController.swift; sourceTree = "<group>"; };
+		420E049723B2907B0030CC59 /* UIView+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+extension.swift"; sourceTree = "<group>"; };
+		4214909E23B16DA5005D7251 /* AnimationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsViewController.swift; sourceTree = "<group>"; };
 		42B1A99823AFC35F00FE509A /* Navegations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navegations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42B1A99B23AFC35F00FE509A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42B1A99D23AFC35F00FE509A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +84,13 @@
 		42B1A9BC23AFC36400FE509A /* NavegationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavegationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42B1A9C023AFC36400FE509A /* NavegationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavegationsUITests.swift; sourceTree = "<group>"; };
 		42B1A9C223AFC36400FE509A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42B1A9D023AFC8C900FE509A /* CarouselCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselCollectionViewCell.swift; sourceTree = "<group>"; };
+		42B1A9D123AFC8C900FE509A /* CarouselViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselViewController.swift; sourceTree = "<group>"; };
+		42B1A9D223AFC8C900FE509A /* CarouselLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselLayout.swift; sourceTree = "<group>"; };
+		42B1A9D623AFD3F900FE509A /* CarouselSuperiorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselSuperiorViewController.swift; sourceTree = "<group>"; };
+		42B1A9D923AFDA0B00FE509A /* UIViewController+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+extension.swift"; sourceTree = "<group>"; };
+		42B1A9DC23AFDAD300FE509A /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		42B1A9DE23AFDB5D00FE509A /* UIColor+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +118,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		420E047423B252100030CC59 /* Snapping */ = {
+			isa = PBXGroup;
+			children = (
+				420E047523B252100030CC59 /* SnappingCollectionViewCell.swift */,
+				420E047623B252100030CC59 /* SnappingViewController.swift */,
+				420E047723B252100030CC59 /* SnappingFlowLayout.swift */,
+			);
+			path = Snapping;
+			sourceTree = "<group>";
+		};
+		420E047B23B255BE0030CC59 /* Parallax */ = {
+			isa = PBXGroup;
+			children = (
+				420E047C23B255BE0030CC59 /* ParallaxCollectionViewCell.swift */,
+				420E047D23B255BE0030CC59 /* ParallaxFlowLayout.swift */,
+				420E047E23B255BE0030CC59 /* ParallaxLayoutAttributes.swift */,
+				420E047F23B255BE0030CC59 /* ParallaxViewController.swift */,
+			);
+			path = Parallax;
+			sourceTree = "<group>";
+		};
+		420E048423B2589E0030CC59 /* Swap layout */ = {
+			isa = PBXGroup;
+			children = (
+				420E048523B2589E0030CC59 /* SwapViewController.swift */,
+			);
+			path = "Swap layout";
+			sourceTree = "<group>";
+		};
+		420E048723B25D290030CC59 /* ItemForRow */ = {
+			isa = PBXGroup;
+			children = (
+				420E048823B25D6E0030CC59 /* ColumnFlowLayout.swift */,
+				420E048A23B25E7C0030CC59 /* ItemForRowViewController.swift */,
+			);
+			path = ItemForRow;
+			sourceTree = "<group>";
+		};
+		420E049423B28E040030CC59 /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				420E049523B28E240030CC59 /* SectionCollectionViewController.swift */,
+			);
+			path = Section;
+			sourceTree = "<group>";
+		};
+		4214909D23B16D84005D7251 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				4214909E23B16DA5005D7251 /* AnimationsViewController.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
 		42B1A98F23AFC35F00FE509A = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +195,8 @@
 		42B1A99A23AFC35F00FE509A /* Navegations */ = {
 			isa = PBXGroup;
 			children = (
+				42B1A9D823AFD9F100FE509A /* Extension */,
+				42B1A9CE23AFC72000FE509A /* View */,
 				42B1A99B23AFC35F00FE509A /* AppDelegate.swift */,
 				42B1A99D23AFC35F00FE509A /* SceneDelegate.swift */,
 				42B1A99F23AFC35F00FE509A /* ViewController.swift */,
@@ -129,6 +225,50 @@
 				42B1A9C223AFC36400FE509A /* Info.plist */,
 			);
 			path = NavegationsUITests;
+			sourceTree = "<group>";
+		};
+		42B1A9CE23AFC72000FE509A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				420E049423B28E040030CC59 /* Section */,
+				420E048723B25D290030CC59 /* ItemForRow */,
+				420E048423B2589E0030CC59 /* Swap layout */,
+				420E047B23B255BE0030CC59 /* Parallax */,
+				420E047423B252100030CC59 /* Snapping */,
+				4214909D23B16D84005D7251 /* Animation */,
+				42B1A9DB23AFDAAC00FE509A /* Tables */,
+				42B1A9CF23AFC8AF00FE509A /* Carousel */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		42B1A9CF23AFC8AF00FE509A /* Carousel */ = {
+			isa = PBXGroup;
+			children = (
+				42B1A9D123AFC8C900FE509A /* CarouselViewController.swift */,
+				42B1A9D623AFD3F900FE509A /* CarouselSuperiorViewController.swift */,
+				42B1A9D223AFC8C900FE509A /* CarouselLayout.swift */,
+				42B1A9D023AFC8C900FE509A /* CarouselCollectionViewCell.swift */,
+			);
+			path = Carousel;
+			sourceTree = "<group>";
+		};
+		42B1A9D823AFD9F100FE509A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				42B1A9DE23AFDB5D00FE509A /* UIColor+extension.swift */,
+				42B1A9D923AFDA0B00FE509A /* UIViewController+extension.swift */,
+				420E049723B2907B0030CC59 /* UIView+extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		42B1A9DB23AFDAAC00FE509A /* Tables */ = {
+			isa = PBXGroup;
+			children = (
+				42B1A9DC23AFDAD300FE509A /* MenuTableViewController.swift */,
+			);
+			path = Tables;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,10 +402,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42B1A9D323AFC8C900FE509A /* CarouselCollectionViewCell.swift in Sources */,
+				420E049623B28E240030CC59 /* SectionCollectionViewController.swift in Sources */,
+				420E048923B25D6E0030CC59 /* ColumnFlowLayout.swift in Sources */,
+				42B1A9D523AFC8C900FE509A /* CarouselLayout.swift in Sources */,
+				42B1A9DD23AFDAD300FE509A /* MenuTableViewController.swift in Sources */,
+				4214909F23B16DA5005D7251 /* AnimationsViewController.swift in Sources */,
+				42B1A9DA23AFDA0B00FE509A /* UIViewController+extension.swift in Sources */,
 				42B1A9A023AFC35F00FE509A /* ViewController.swift in Sources */,
+				420E048323B255BE0030CC59 /* ParallaxViewController.swift in Sources */,
 				42B1A99C23AFC35F00FE509A /* AppDelegate.swift in Sources */,
+				420E048223B255BE0030CC59 /* ParallaxLayoutAttributes.swift in Sources */,
 				42B1A99E23AFC35F00FE509A /* SceneDelegate.swift in Sources */,
+				42B1A9D723AFD3F900FE509A /* CarouselSuperiorViewController.swift in Sources */,
+				420E047823B252100030CC59 /* SnappingCollectionViewCell.swift in Sources */,
+				42B1A9DF23AFDB5E00FE509A /* UIColor+extension.swift in Sources */,
+				420E048123B255BE0030CC59 /* ParallaxFlowLayout.swift in Sources */,
+				42B1A9D423AFC8C900FE509A /* CarouselViewController.swift in Sources */,
+				420E047923B252100030CC59 /* SnappingViewController.swift in Sources */,
+				420E049823B2907B0030CC59 /* UIView+extension.swift in Sources */,
 				42B1A9A623AFC35F00FE509A /* Navegations.xcdatamodeld in Sources */,
+				420E048B23B25E7C0030CC59 /* ItemForRowViewController.swift in Sources */,
+				420E048623B2589E0030CC59 /* SwapViewController.swift in Sources */,
+				420E048023B255BE0030CC59 /* ParallaxCollectionViewCell.swift in Sources */,
+				420E047A23B252100030CC59 /* SnappingFlowLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
